@@ -3314,3 +3314,17 @@ input, select, textarea {
 			}
 
 	}
+
+
+	/* Custom stuff */
+
+	.skills-flexbox {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 20px;
+		justify-content: center;
+	}
+
+	.skill-label {
+		text-align: center;
+	}
