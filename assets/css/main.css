@@ -3316,7 +3316,7 @@ input, select, textarea {
 	}
 
 
-	/* Custom stuff */
+	/*********** Custom stuff **************/
 
 	.skills-flexbox {
 		display: flex;
@@ -3327,4 +3327,9 @@ input, select, textarea {
 
 	.skill-label {
 		text-align: center;
+	}
+
+	.skill-img {
+		width: 200px;
+		height: auto;
 	}
