@@ -72,17 +72,17 @@
               <h2>Hello! I'm John.</h2>
               <p>
                 Welcome to my portfolio site! <br />
-                Please checkout my skills and pervious projects.
+                Checkout my skills and pervious projects below.
               </p>
             </header>
             <p>
 				I am a San Fransciso Bay Area native that has had a passion for engineering since I was young.
 				I had a successful structural engineering career for about 7 years before finding an irresistible
-				curiosity to pursue software engineering. I simply just love to learn new things, problem solve and
-				create/build. I joined App Academy in March 2022 to gain all the necessary skills to become a full-stack
+				curiosity to pursue software engineering. I love to learning, problem solving and
+				creating/building. I joined App Academy in March 2022 to gain all the necessary skills to become a full-stack
 				software developer. Although not easy, I had a blast during my time at App Academy and learned more than
 				I could have imagined. I have single-handedly built 2 full-stack web applications (Urbnb and FRAMED) along
-				with building another 2 full-stack web apps with a group of developers. A bit more information regarding each
+				with building an additional 2 full-stack web apps (Eventzeit and Good Games) with a team of software developers. A bit more information regarding each
 				site can be found below as well as links to the live sites. Feel free to check them out!
             </p>
           </div>
@@ -91,7 +91,7 @@
         <!-- Two -->
         <section id="two">
           <div class="container">
-            <h3>Technical Skills</h3>
+            <h3 class="colored-section-title">Technical Skills</h3>
             <div class="skills-flexbox">
               <div>
                 <label class="skill-label">Python</label>
@@ -166,7 +166,7 @@
         <!-- Three -->
         <section id="three">
           <div class="container">
-            <h3>My Projects</h3>
+            <h3 class="colored-section-title">My Projects</h3>
             <div class="features">
               <article>
                 <a href="https://urbnb.herokuapp.com" target="_blank" class="image"
@@ -191,7 +191,7 @@
                   <p>
 					Eventzeit is a full-stack clone of Eventbrite and packed full of functionality. I was part of the a group of
 					software engineers that worked together using pair programming and our previous knowledge to bring this web app to life.
-					This app was build using <strong>Python, Flask, React, Redux, JavaScript, PostgreSQL, SQLAlchemy</strong>.
+					This app was built using <strong>Python, Flask, React, Redux, JavaScript, PostgreSQL, SQLAlchemy</strong>.
 					Please click on the image link to view the site!
                   </p>
                 </div>
@@ -204,7 +204,7 @@
                   <h4>FRAMED</h4>
                   <p>
                     FRAMED is a full-stack clone of Flickr. Me, myself and I brought this web app to life.
-					This app was build using the <strong>PERN</strong> stack <strong>JavaScript, Express.js, Node.js, React, Redux, PostgreSQL, Sequelize</strong>.
+					This app was built using the <strong>PERN</strong> stack <strong>JavaScript, Express.js, Node.js, React, Redux, PostgreSQL, Sequelize</strong>.
 					Please click on the image link to view the site!
                   </p>
                 </div>
@@ -216,8 +216,8 @@
                 <div class="inner">
                   <h4>Good Games</h4>
                   <p>
-                    Good Games is a full-stack clone of goodreads with a video game/computer game focus. This web application was built by myself and three other software engineers.
-					The technologies used to build this app were <strong>JavaScript, Express.js, Node.js, Pug, PostgreSQL, Sequelize</strong>.
+                    Good Games is a full-stack clone of goodreads with a video game/computer game theme. This web application was built by myself and three other software engineers.
+					The technologies used were <strong>JavaScript, Express.js, Node.js, Pug, PostgreSQL, Sequelize</strong>.
 					Please click on the image link to view the site!
                   </p>
                 </div>
@@ -229,12 +229,13 @@
         <!-- Four -->
         <section id="four">
           <div class="container">
-            <h3>Contact Me</h3>
+            <h3 class="colored-section-title">Contact Me</h3>
             <p>
-             Feel free to reach out if you have any questions or employment opportunities. Thank you!
+             Feel free to reach out if you have any employment opportunities or questions. Thank you!
             </p>
             <form name="contact-form-portfolio" data-netlify="true" method="post" action="mailto:john.voskuyl@gmail.com">
               <div class="row gtr-uniform">
+				<input type="hidden" name="form-name" value="contact-form-portfolio">
                 <div class="col-6 col-12-xsmall">
                   <input type="text" name="name" id="name" placeholder="Name" />
                 </div>
