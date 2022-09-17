@@ -3337,3 +3337,7 @@ input, select, textarea {
 	.colored-section-title {
 		color: #3b30db
 	}
+
+	#resume-link {
+		border-bottom: none;
+	}
