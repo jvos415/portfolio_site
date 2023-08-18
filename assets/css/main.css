@@ -3328,6 +3328,7 @@ input, select, textarea {
 
 	.skill-label {
 		text-align: center;
+		margin-bottom: 5px;
 	}
 
 	.skill-img {
