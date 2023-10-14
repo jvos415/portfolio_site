@@ -2803,7 +2803,7 @@ input, select, textarea {
 						border: 0;
 						color: #ffffff !important;
 						display: block;
-						padding: 0.85em 0;
+						padding: 0.65em 0;
 						text-decoration: none;
 					}
 
@@ -2888,7 +2888,7 @@ input, select, textarea {
 			}
 
 				#header > header {
-					padding: 2em;
+					padding: 2em 2em 1.5em 2em;
 				}
 
 				#header > footer {
