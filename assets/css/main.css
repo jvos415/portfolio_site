@@ -3344,6 +3344,31 @@ input, select, textarea {
 		height: auto;
 	}
 
+	.experience-skills-flexbox {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 24px;
+		justify-content: center;
+	}
+
+	.experience-skill-label {
+		display: flex;
+		text-align: center;
+		margin-bottom: 5px;
+		display: flex;
+		flex-wrap: wrap;
+		width: 130px;
+		justify-content: center;
+		align-items: center;
+		line-height: 20px;
+		height: 42px;
+	}
+
+	.experience-skill-img {
+		width: 130px;
+		height: auto;
+	}
+
 	.colored-section-title {
 		color: #3b30db
 	}
